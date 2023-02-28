@@ -81,10 +81,11 @@ export default function Portfolio({ position, scale }) {
                 <PortfolioCard
                     scale={0.4}
                     position={[-1.5, 0, 0]}
-                    url='https://lets-frickin-game-1.herokuapp.com/'
-                    imgSrc='./LFG.png'
-                    title='Lets Frickin Game'
-                    stack={'React || Nodejs || Apollo GraphQL || MongoDB'}
+                    url='https://github.com/Contact-IoT-Digital-Signage'
+                    imgSrc='./iot.png'
+                    title='Iot Digital Signage'
+                    subtitle={'1st place in the 2023 DevWeek Hackathon!!'}
+                    stack={'React || Nodejs || Oracle Cloud || Firebase'}
                 />
                 <PortfolioCard
                     scale={0.4}
@@ -97,10 +98,10 @@ export default function Portfolio({ position, scale }) {
                 <PortfolioCard
                     scale={0.4}
                     position={[1.5, 0, 0]}
-                    url=''
-                    imgSrc='./BlogSitePic.png'
-                    title='BlogSite'
-                    stack={'Express || Handlebars || SQL'}
+                    url='https://lets-frickin-game-1.herokuapp.com/'
+                    imgSrc='./LFG.png'
+                    title='Lets Frickin Game'
+                    stack={'React || Nodejs || Apollo GraphQL || MongoDB'}
                 />
             </Float>
 

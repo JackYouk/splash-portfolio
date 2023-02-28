@@ -1,6 +1,6 @@
 import { Image, Text } from "@react-three/drei";
 
-export default function PortfolioCard ({scale, position, url, imgSrc, title, stack}) {
+export default function PortfolioCard ({scale, position, url, imgSrc, title, stack, subtitle}) {
 
     return (
         <group 
@@ -30,6 +30,14 @@ export default function PortfolioCard ({scale, position, url, imgSrc, title, sta
                     color='gray'
                 >
                     {stack}
+                </Text>
+                <Text
+                    font="./Alata_Regular.json"
+                    scale={0.15}
+                    position={[0, -2.3, 0]}
+                    color='gray'
+                >
+                    {subtitle}
                 </Text>
         </group>
     )
