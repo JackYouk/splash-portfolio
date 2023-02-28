@@ -26,27 +26,31 @@ export default function Intro({ position, scale }) {
     useFrame(() => {
         if(linkedinhover){
             gsap.to(linkedinRef.current.rotation, 1, {y: Math.PI * 2})
-        }else{
-            gsap.to(linkedinRef.current.rotation, 1, {y: 0})
         }
+        // else{
+        //     gsap.to(linkedinRef.current.rotation, 1, {y: 0})
+        // }
 
         if(twitterhover){
             gsap.to(twitterRef.current.rotation, 1, {y: Math.PI * 2})
-        }else{
-            gsap.to(twitterRef.current.rotation, 1, {y: 0})
         }
+        // else{
+        //     gsap.to(twitterRef.current.rotation, 1, {y: 0})
+        // }
 
         if(mailhover){
             gsap.to(mailRef.current.rotation, 1, {y: Math.PI * 2})
-        }else{
-            gsap.to(mailRef.current.rotation, 1, {y: 0})
         }
+        // else{
+        //     gsap.to(mailRef.current.rotation, 1, {y: 0})
+        // }
 
         if(resumehover){
             gsap.to(resumeRef.current.rotation, 1, {y: Math.PI * 2})
-        }else{
-            gsap.to(resumeRef.current.rotation, 1, {y: 0})
         }
+        // else{
+        //     gsap.to(resumeRef.current.rotation, 1, {y: 0})
+        // }
     })
 
 
@@ -64,11 +68,11 @@ export default function Intro({ position, scale }) {
                         onClick={() => window.open("mailto:jackyoukstetter1@gmail.com", "_blank") } 
                         onPointerEnter={() => {
                             setMailhover(true);
-                            // document.body.style.cursor = 'pointer';
+                            document.body.style.cursor = 'pointer';
                         }} 
                         onPointerLeave={() => {
                             setMailhover(false);
-                            // document.body.style.cursor = 'default';
+                            document.body.style.cursor = 'default';
                         }}
                     />
                     <primitive
@@ -79,11 +83,11 @@ export default function Intro({ position, scale }) {
                         onClick={() => window.open("https://www.linkedin.com/in/jack-youkstetter-6b00a81a8/", "_blank") } 
                         onPointerEnter={() => {
                             setLinkedinhover(true);
-                            // document.body.style.cursor = 'pointer';
+                            document.body.style.cursor = 'pointer';
                         }} 
                         onPointerLeave={() => {
                             setLinkedinhover(false);
-                            // document.body.style.cursor = 'default';
+                            document.body.style.cursor = 'default';
                         }}
                     />
                     <primitive
@@ -91,14 +95,14 @@ export default function Intro({ position, scale }) {
                         object={resumeLogo.scene}
                         scale={0.5}
                         position={[5.5, 1.86, 0]}
-                        onClick={() => window.open("./resume.pdf", "_blank") } 
+                        onClick={() => window.open("./2023resume.pdf", "_blank") } 
                         onPointerEnter={() => {
                             setResumehover(true);
-                            // document.body.style.cursor = 'pointer';
+                            document.body.style.cursor = 'pointer';
                         }} 
                         onPointerLeave={(e) => {
                             setResumehover(false);
-                            // document.body.style.cursor = 'default';
+                            document.body.style.cursor = 'default';
                         }}
                     />
                     <primitive
@@ -109,11 +113,11 @@ export default function Intro({ position, scale }) {
                         onClick={() => window.open("https://twitter.com/midpaqjack", "_blank") } 
                         onPointerEnter={() => {
                             setTwitterhover(true);
-                            // document.body.style.cursor = 'pointer';
+                            document.body.style.cursor = 'pointer';
                         }} 
                         onPointerLeave={() => {
                             setTwitterhover(false);
-                            // document.body.style.cursor = 'default';
+                            document.body.style.cursor = 'default';
                         }}
                     />
 
