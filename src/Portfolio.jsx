@@ -87,17 +87,17 @@ export default function Portfolio({ position, scale }) {
                     subtitle={'1st place in the 2023 DevWeek Hackathon!!'}
                     stack={'React || Nodejs || Oracle Cloud || Firebase'}
                 />
-                <PortfolioCard
+                {/* <PortfolioCard
                     scale={0.4}
                     position={[0, 0, 0]}
                     url='https://remota-website.vercel.app/'
                     imgSrc='./remotawebsite.png'
                     title='Remota'
                     stack={'React || React-Spring'}
-                />
+                /> */}
                 <PortfolioCard
                     scale={0.4}
-                    position={[1.5, 0, 0]}
+                    position={[0, 0, 0]}
                     url='https://lets-frickin-game-1.herokuapp.com/'
                     imgSrc='./LFG.png'
                     title='Lets Frickin Game'
