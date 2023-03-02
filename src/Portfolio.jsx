@@ -80,7 +80,7 @@ export default function Portfolio({ position, scale }) {
                 </Center>
                 <PortfolioCard
                     scale={0.4}
-                    position={[-1.5, 0, 0]}
+                    position={[-0.75, 0, 0]}
                     url='https://github.com/Contact-IoT-Digital-Signage'
                     imgSrc='./iot.png'
                     title='Iot Digital Signage'
@@ -97,7 +97,7 @@ export default function Portfolio({ position, scale }) {
                 /> */}
                 <PortfolioCard
                     scale={0.4}
-                    position={[0, 0, 0]}
+                    position={[0.75, 0, 0]}
                     url='https://lets-frickin-game-1.herokuapp.com/'
                     imgSrc='./LFG.png'
                     title='Lets Frickin Game'
