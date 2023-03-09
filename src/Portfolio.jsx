@@ -80,12 +80,21 @@ export default function Portfolio({ position, scale }) {
                 </Center>
                 <PortfolioCard
                     scale={0.4}
-                    position={[-0.75, 0, 0]}
+                    position={[-1.5, 0, 0]}
                     url='https://github.com/Contact-IoT-Digital-Signage'
                     imgSrc='./iot.png'
                     title='Iot Digital Signage'
                     subtitle={'1st place in the 2023 DevWeek Hackathon!!'}
                     stack={'React || Nodejs || Oracle Cloud || Firebase'}
+                />
+                <PortfolioCard
+                    scale={0.4}
+                    position={[0, 0, 0]}
+                    url='https://www.npmjs.com/package/react-model-viewer-3d?activeTab=readme'
+                    imgSrc='./npmpackage.png'
+                    title='npm react-model-viewer-3d'
+                    subtitle={'npm package for viewing 3d models in a react application'}
+                    stack={'Webpack || Babel || React || R3F'}
                 />
                 {/* <PortfolioCard
                     scale={0.4}
@@ -97,7 +106,7 @@ export default function Portfolio({ position, scale }) {
                 /> */}
                 <PortfolioCard
                     scale={0.4}
-                    position={[0.75, 0, 0]}
+                    position={[1.5, 0, 0]}
                     url='https://lets-frickin-game-1.herokuapp.com/'
                     imgSrc='./LFG.png'
                     title='Lets Frickin Game'
