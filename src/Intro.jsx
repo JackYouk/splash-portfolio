@@ -105,7 +105,7 @@ export default function Intro({ position, scale }) {
                             document.body.style.cursor = 'default';
                         }}
                     />
-                    <primitive
+                    {/* <primitive
                         ref={twitterRef}
                         object={twitterLogo.scene}
                         scale={0.2}
@@ -119,7 +119,7 @@ export default function Intro({ position, scale }) {
                             setTwitterhover(false);
                             document.body.style.cursor = 'default';
                         }}
-                    />
+                    /> */}
 
 
                     <Text3D
