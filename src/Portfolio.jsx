@@ -45,7 +45,7 @@ export default function Portfolio({ position, scale }) {
                 <PortfolioCard
                     scale={0.4}
                     position={[-3, 0, 0]}
-                    url='https://vortex-web-art.vercel.app/'
+                    url='https://party-cat.vercel.app/'
                     imgSrc='./partycat.png'
                     title='PartyCat'
                     stack={'React || Threejs || R3F'}
@@ -69,7 +69,7 @@ export default function Portfolio({ position, scale }) {
                 <PortfolioCard
                     scale={0.4}
                     position={[1.5, 0, 0]}
-                    url='https://advanced-fe-playground.vercel.app/'
+                    url='https://marbles.vercel.app/'
                     imgSrc='./marbles.png'
                     title='Marbles Physics'
                     stack={'React || Threejs'}
@@ -97,7 +97,7 @@ export default function Portfolio({ position, scale }) {
                 <PortfolioCard
                     scale={0.4}
                     position={[-2, 0, 0]}
-                    url='https://github.com/Contact-IoT-Digital-Signage'
+                    url='https://www.cpai.app/'
                     imgSrc='./cpai.png'
                     title='ChartProphet Ai'
                     subtitle={'Lead FE dev @ Web3 Ai Startup'}
