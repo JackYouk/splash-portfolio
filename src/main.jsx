@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         fov: 45,
         near: 0.1,
         far: 200,
-        position: [0, 0, (window.innerWidth < 600 ? 25 : 10)]
+        position: [0, 0, (window.innerWidth < 600 ? 32 : 10)]
       }}
     >
       <Suspense fallback={null}>
