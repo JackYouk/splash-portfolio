@@ -25,7 +25,7 @@ export default function PortfolioCard ({scale, position, url, imgSrc, title, sta
                 </Text>
                 <Text
                     font="./Alata_Regular.json"
-                    scale={0.15}
+                    scale={0.18}
                     position={[0, -2.1, 0]}
                     color='gray'
                 >
@@ -33,7 +33,7 @@ export default function PortfolioCard ({scale, position, url, imgSrc, title, sta
                 </Text>
                 <Text
                     font="./Alata_Regular.json"
-                    scale={0.15}
+                    scale={0.18}
                     position={[0, -2.3, 0]}
                     color='gray'
                 >

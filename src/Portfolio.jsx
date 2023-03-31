@@ -25,7 +25,7 @@ export default function Portfolio({ position, scale }) {
                 ref={arrowRef}
                 object={arrow.scene}
                 scale={0.8}
-                position={[-2.5, -1, 0]}
+                position={[-3.5, -1, 0]}
                 rotation={[0, 0, Math.PI / 2]}
                 onPointerOver={() => document.body.style.cursor = 'pointer'}
                 onPointerLeave={() => document.body.style.cursor = 'default'}
@@ -42,6 +42,14 @@ export default function Portfolio({ position, scale }) {
                         <meshStandardMaterial color='black' />
                     </Text3D>
                 </Center>
+                <PortfolioCard
+                    scale={0.4}
+                    position={[-3, 0, 0]}
+                    url='https://vortex-web-art.vercel.app/'
+                    imgSrc='./partycat.png'
+                    title='PartyCat'
+                    stack={'React || Threejs || R3F'}
+                />
                 <PortfolioCard
                     scale={0.4}
                     position={[-1.5, 0, 0]}
@@ -62,6 +70,14 @@ export default function Portfolio({ position, scale }) {
                     scale={0.4}
                     position={[1.5, 0, 0]}
                     url='https://advanced-fe-playground.vercel.app/'
+                    imgSrc='./marbles.png'
+                    title='Marbles Physics'
+                    stack={'React || Threejs'}
+                />
+                <PortfolioCard
+                    scale={0.4}
+                    position={[3, 0, 0]}
+                    url='https://advanced-fe-playground.vercel.app/'
                     imgSrc='./playgroundwebsite.png'
                     title='3js Beginner Playground'
                     stack={'React || Threejs'}
@@ -80,7 +96,16 @@ export default function Portfolio({ position, scale }) {
                 </Center>
                 <PortfolioCard
                     scale={0.4}
-                    position={[-1.5, 0, 0]}
+                    position={[-2, 0, 0]}
+                    url='https://github.com/Contact-IoT-Digital-Signage'
+                    imgSrc='./cpai.png'
+                    title='ChartProphet Ai'
+                    subtitle={'Lead FE dev @ Web3 Ai Startup'}
+                    stack={'React || Solidity & BSC'}
+                />
+                <PortfolioCard
+                    scale={0.4}
+                    position={[-0.5, 0, 0]}
                     url='https://github.com/Contact-IoT-Digital-Signage'
                     imgSrc='./iot.png'
                     title='Iot Digital Signage'
@@ -89,24 +114,16 @@ export default function Portfolio({ position, scale }) {
                 />
                 <PortfolioCard
                     scale={0.4}
-                    position={[0, 0, 0]}
+                    position={[1, 0, 0]}
                     url='https://www.npmjs.com/package/react-model-viewer-3d?activeTab=readme'
                     imgSrc='./npmpackage.png'
                     title='npm react-model-viewer-3d'
-                    subtitle={'npm package for viewing 3d models in a react application'}
+                    subtitle={'package for viewing 3d models in react'}
                     stack={'Webpack || Babel || React || R3F'}
                 />
-                {/* <PortfolioCard
-                    scale={0.4}
-                    position={[0, 0, 0]}
-                    url='https://remota-website.vercel.app/'
-                    imgSrc='./remotawebsite.png'
-                    title='Remota'
-                    stack={'React || React-Spring'}
-                /> */}
                 <PortfolioCard
                     scale={0.4}
-                    position={[1.5, 0, 0]}
+                    position={[2.5, 0, 0]}
                     url='https://lets-frickin-game-1.herokuapp.com/'
                     imgSrc='./LFG.png'
                     title='Lets Frickin Game'
