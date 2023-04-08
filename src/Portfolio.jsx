@@ -97,6 +97,15 @@ export default function Portfolio({ position, scale }) {
                 <PortfolioCard
                     scale={0.4}
                     position={[-2, 0, 0]}
+                    url='https://quick-essay101.vercel.app/'
+                    imgSrc='./qe101.png'
+                    title='QuickEssay101'
+                    subtitle={'Ai Generated MLA Essays'}
+                    stack={'Nextjs || ChatGPT || Stripe'}
+                />
+                <PortfolioCard
+                    scale={0.4}
+                    position={[-0.5, 0, 0]}
                     url='https://www.cpai.app/'
                     imgSrc='./cpai.png'
                     title='ChartProphet Ai'
@@ -105,16 +114,16 @@ export default function Portfolio({ position, scale }) {
                 />
                 <PortfolioCard
                     scale={0.4}
-                    position={[-0.5, 0, 0]}
+                    position={[1, 0, 0]}
                     url='https://github.com/Contact-IoT-Digital-Signage'
                     imgSrc='./iot.png'
                     title='Iot Digital Signage'
                     subtitle={'1st place in the 2023 DevWeek Hackathon!!'}
-                    stack={'React || Nodejs || Oracle Cloud || Firebase'}
+                    stack={'React || ZoomSDK || Oracle Cloud || Firebase'}
                 />
                 <PortfolioCard
                     scale={0.4}
-                    position={[1, 0, 0]}
+                    position={[2.5, 0, 0]}
                     url='https://www.npmjs.com/package/react-model-viewer-3d?activeTab=readme'
                     imgSrc='./npmpackage.png'
                     title='npm react-model-viewer-3d'
@@ -123,11 +132,12 @@ export default function Portfolio({ position, scale }) {
                 />
                 <PortfolioCard
                     scale={0.4}
-                    position={[2.5, 0, 0]}
+                    position={[4, 0, 0]}
                     url='https://lets-frickin-game-1.herokuapp.com/'
                     imgSrc='./LFG.png'
                     title='Lets Frickin Game'
-                    stack={'React || Nodejs || Apollo GraphQL || MongoDB'}
+                    stack={'React || Apollo GraphQL || MongoDB'}
+                    subtitle={'Platform for finding online gaming teammates'}
                 />
             </Float>
 
