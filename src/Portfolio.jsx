@@ -33,7 +33,7 @@ export default function Portfolio({ position, scale }) {
             />
 
             <Float position={[1.5, -1.5, 0]}>
-                <Center position={[0, 1.2, 0]}>
+                <Center position={[-0.5, 1.2, 0]}>
                     <Text3D
                         font='./Alata_Regular.json'
                         scale={0.5}
@@ -44,7 +44,15 @@ export default function Portfolio({ position, scale }) {
                 </Center>
                 <PortfolioCard
                     scale={0.4}
-                    position={[-3, 0, 0]}
+                    position={[-2, 0.15, 0]}
+                    url='https://polaroid-tau.vercel.app/'
+                    imgSrc='./summer.png'
+                    title='Summer of Love'
+                    stack={'React || Threejs || R3F'}
+                />
+                <PortfolioCard
+                    scale={0.4}
+                    position={[-0.5, 0.15, 0]}
                     url='https://party-cat.vercel.app/'
                     imgSrc='./partycat.png'
                     title='PartyCat'
@@ -52,7 +60,7 @@ export default function Portfolio({ position, scale }) {
                 />
                 <PortfolioCard
                     scale={0.4}
-                    position={[-1.5, 0, 0]}
+                    position={[1, 0.15, 0]}
                     url='https://vortex-web-art.vercel.app/'
                     imgSrc='./vortexart.png'
                     title='Vortex Ventures Art'
@@ -60,7 +68,7 @@ export default function Portfolio({ position, scale }) {
                 />
                 <PortfolioCard
                     scale={0.4}
-                    position={[0, 0, 0]}
+                    position={[-2, -1.45, 0]}
                     url='https://devweek-r3f.vercel.app/'
                     imgSrc='./devweek.png'
                     title='DevWeek 2023'
@@ -68,7 +76,7 @@ export default function Portfolio({ position, scale }) {
                 />
                 <PortfolioCard
                     scale={0.4}
-                    position={[1.5, 0, 0]}
+                    position={[-0.5, -1.45, 0]}
                     url='https://marbles.vercel.app/'
                     imgSrc='./marbles.png'
                     title='Marbles Physics'
@@ -76,7 +84,7 @@ export default function Portfolio({ position, scale }) {
                 />
                 <PortfolioCard
                     scale={0.4}
-                    position={[3, 0, 0]}
+                    position={[1, -1.45, 0]}
                     url='https://advanced-fe-playground.vercel.app/'
                     imgSrc='./playgroundwebsite.png'
                     title='3js Beginner Playground'
