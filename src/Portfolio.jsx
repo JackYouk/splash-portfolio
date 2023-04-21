@@ -141,11 +141,11 @@ export default function Portfolio({ position, scale }) {
                 <PortfolioCard
                     scale={0.4}
                     position={[4, 0, 0]}
-                    url='https://lets-frickin-game-1.herokuapp.com/'
-                    imgSrc='./LFG.png'
-                    title='Lets Frickin Game'
-                    stack={'React || Apollo GraphQL || MongoDB'}
-                    subtitle={'Platform for finding online gaming teammates'}
+                    url='https://mindbee-journal.vercel.app/'
+                    imgSrc='./mindbee.png'
+                    title='MindBee Journal'
+                    stack={'Nextjs || Stripe || Firebase || Ai'}
+                    subtitle={'Wellness Journal & Ai Therapist'}
                 />
             </Float>
 
