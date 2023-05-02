@@ -38,7 +38,7 @@ export default function Portfolio({ position, scale }) {
                         font='./Alata_Regular.json'
                         scale={0.5}
                     >
-                        Web Art
+                        Expirements & Art
                         <meshStandardMaterial color='black' />
                     </Text3D>
                 </Center>

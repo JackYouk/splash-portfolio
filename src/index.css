@@ -6,7 +6,12 @@ body,
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 88%;
     background: white;
 }
 
+.iconImage {
+    filter: invert();
+    width: 20px;
+    height: 22px;
+}
