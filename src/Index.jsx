@@ -22,10 +22,15 @@ export default function Index() {
                 </Suspense>
             </Canvas>
             <Loader containerStyles={{ backgroundColor: 'white', color: 'black' }} />
-            <div style={{margin: '3px', fontFamily: 'monospace', maxHeight: '10%', borderRadius: '7px', backgroundColor: 'rgba(0, 0, 0, 0.5)', color: ['white'], display: 'flex', alignItems: 'start', maxHeight: '300px', padding: '7px'}}>
-                <input type="checkbox" checked={orbit} style={{marginTop: '11px'}} onClick={() => setOrbit(!orbit)} />
-                <label style={{marginLeft: '5px', fontSize: '10px', lineHeight: '30px'}}>Enable orbit controls || Right-click/<img src='./2finger-scroll.png' className='iconImage'/> to move || Left-click/<img src='./1finger-scroll.png' className='iconImage'/> to rotate || Scroll/<img src='./fingerPinch-zoom.png' className='iconImage'/> to zoom</label>
-            </div>
+            <div style={{ maxHeight: '10%', padding: '5px', paddingTop: '20px', display: 'flex', alignItems: 'end'}}>
+                <div style={{ fontFamily: 'monospace', borderRadius: '7px', backgroundColor: 'rgba(0, 0, 0, 0.5)', color: ['white'], display: 'flex', alignItems: 'center', padding: '7px'}}>
+                <input type="checkbox" checked={orbit} style={{}} onClick={() => setOrbit(!orbit)} />
+                <label style={{marginLeft: '5px', fontSize: '10px', lineHeight: '30px'}}>
+                    Enable orbit controls || Right-click/<img src='./2finger-scroll.png' className='iconImage'/> to move 
+                    || Left-click/<img src='./1finger-scroll.png' className='iconImage'/> 
+                    to rotate || Scroll/<img src='./fingerPinch-zoom.png' className='iconImage'/> to zoom</label>
+                </div>
+                </div>
         </>
     )
 }
